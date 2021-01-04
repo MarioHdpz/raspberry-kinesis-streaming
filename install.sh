@@ -14,7 +14,9 @@ mkdir kinesis
 cd kinesis
 git clone https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp.git .
 
-mkdir build; cd build; cmake .. -DBUILD_GSTREAMER_PLUGIN=ON
+mkdir build
+cd build
+cmake .. -DBUILD_GSTREAMER_PLUGIN=ON
 
 make
 
